@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <title>Notas</title>
 </head>
 <body>
@@ -14,16 +17,17 @@
             <p>Insira as notas de cada semestre</p>
         </div>
         <div class="notas">
-            <label for="1Sem">1º Semestre (0-10):</label>
-            <input type="number" id="1Sem" name="1Sem" min="0" max="10">
+            <li><label for="1Sem">1º Semestre (0-10):</label>
+            <input type="number" id="1Sem" value="0" min="0" max="10"></li>
     
-            <label for="2Sem">2º Semestre (0-10):</label>
-            <input type="number" id="2Sem" name="2Sem" min="0" max="10">
+            <li><label for="2Sem">2º Semestre (0-10):</label>
+            <input type="number" id="2Sem" value="0" min="0" max="10"></li>
         
-            <label for="3Sem">3º Semestre (0-10):</label>
-            <input type="number" id="3Sem" name="3Sem" min="0" max="10">
+            <li><label for="3Sem">3º Semestre (0-10):</label>
+            <input type="number" id="3Sem" value="0" min="0" max="10"></li>
         </div>
-        <button onclick="mediaSem">Prosseguir</button>
+        <button onclick="mediaSem();">PROSSEGUIR</button>
+        <p>Resultado: <span id="saidaResult"></span></p>
     </div>
 </body>
 </html>

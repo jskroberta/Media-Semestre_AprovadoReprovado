@@ -1,11 +1,45 @@
 * {
     margin: 0;
     padding: 0;
+   
 }
-body {
-    background-color: #10609e;
-}
-.total {
-    background-color: blue;
 
+body {   
+    background-color: #dde5f0;
+    
+    
+    }
+
+.total {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 160px;
+
+}
+.perguntaNota {
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+li {
+    list-style: none;
+    font-size: 20px;
+    margin: 25px;
+}
+
+button {
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 250px;
+    height: 40px;
+    border: solid 1px #c6c6c6;
+    background: grey;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    
 }
