@@ -19,7 +19,7 @@ body {
 
 }
 .perguntaNota {
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Josefin Sans', sans-serif;
     margin: 30px;
     flex-wrap: wrap;
@@ -28,18 +28,28 @@ li {
     list-style: none;
     font-size: 20px;
     margin: 25px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 button {
     margin: 10px;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 250px;
-    height: 40px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 200px;
+    height: 30px;
     border: solid 1px #c6c6c6;
     background: grey;
-    font-weight: bold;
+    
     color: #ffffff;
     cursor: pointer;
     
+}
+.resultadoAprov {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.imput {
+    width: 70px;
+    height: 20px;
+
 }
