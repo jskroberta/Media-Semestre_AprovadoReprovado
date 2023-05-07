@@ -9,12 +9,14 @@ function mediaSem() {
 
     const resultFinal = (notas1numero + notas2numero + notas3numero) / 3;
 
-
+    
     if (resultFinal>= 6) {
-        document.getElementById("saidaResult").innerText= "Aprovado";
+        document.getElementById("saidaResult").innerHTML= "Aprovado";
+        document.getElementById("saidaResult").setAttribute("class","resultado aprovado");
     } else{
-        document.getElementById("saidaResult").innerText= "Reprovado";
-    }   
+        document.getElementById("saidaResult").innerHTML= "Reprovado";
+        document.getElementById("saidaResult").setAttribute("class","resultado reprovado");
+    }  
     
    
     //window.location.href ="segundapagina.html"
