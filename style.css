@@ -5,7 +5,8 @@
 }
 
 body {   
-    background-color: #dde5f0;
+    background-color: #576de6;
+    color: #ffffff;
     
     
     }
@@ -18,12 +19,13 @@ body {
     margin: 160px;
 
 }
-.perguntaNota {
-    font-size: 50px;
+header {
+    font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
-    margin: 30px;
-    flex-wrap: wrap;
+    background-color: #071040;
+    padding: 20px;
 }
+
 li {
     list-style: none;
     font-size: 20px;
@@ -33,12 +35,12 @@ li {
 
 button {
     margin: 10px;
-    font-size: 25px;
+    font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
-    width: 200px;
-    height: 30px;
+    width: 150px;
+    height: 25px;
     border: solid 1px #c6c6c6;
-    background: grey;
+    background: #0f207d;
     
     color: #ffffff;
     cursor: pointer;
@@ -49,14 +51,15 @@ button {
     font-size: 20px;
 }
 .imput {
-    width: 70px;
-    height: 20px;
+    width: 60px;
+    height: 18px;
 
 }
 
 .resultado{
     text-transform: uppercase;
     font-size: large;
+    font-weight: bold;
 }
 .aprovado {
     color: green;
