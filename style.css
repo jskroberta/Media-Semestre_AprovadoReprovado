@@ -5,10 +5,14 @@
 }
 
 body {   
-    background-color: #576de6;
+    background-image: linear-gradient( to top, #0b70bd, transparent), url(salaAula.JPG);
     color: #ffffff;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     
     
+
     }
 
 .total {
@@ -16,30 +20,31 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    margin: 160px;
+    margin: 180px;
 
 }
 header {
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #071040;
+    background-color: #033d69;
     padding: 20px;
 }
 
 li {
     list-style: none;
-    font-size: 20px;
+    font-size: 35px;
     margin: 25px;
     font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
 }
 
 button {
     margin: 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Josefin Sans', sans-serif;
-    width: 150px;
-    height: 25px;
-    border: solid 1px #c6c6c6;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
     background: #0f207d;
     
     color: #ffffff;
@@ -48,11 +53,13 @@ button {
 }
 .resultadoAprov {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 10px;
+    color: #ffffff;
 }
 .imput {
-    width: 60px;
-    height: 18px;
+    width: 80px;
+    height: 23px;
 
 }
 
@@ -63,10 +70,13 @@ button {
 }
 .aprovado {
     color: green;
+    font-size: 30px;
+    
     
 }
 
 .reprovado {
     color: red;
+    font-size: 30px;
     
 }

@@ -11,10 +11,10 @@ function mediaSem() {
 
     
     if (resultFinal>= 6) {
-        document.getElementById("saidaResult").innerHTML= "Aprovado";
+        document.getElementById("saidaResult").innerHTML= " Aprovado";
         document.getElementById("saidaResult").setAttribute("class","resultado aprovado");
     } else{
-        document.getElementById("saidaResult").innerHTML= "Reprovado";
+        document.getElementById("saidaResult").innerHTML= " Reprovado";
         document.getElementById("saidaResult").setAttribute("class","resultado reprovado");
     }  
     
